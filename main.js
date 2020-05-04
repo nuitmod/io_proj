@@ -4,7 +4,7 @@ $(function(){
 
 
   $('#burg').on('click', function(){
-    $('.mobile-tab').slideToggle(600)
+    $('.mobile-tab').slideToggle(300)
   })
 
 
