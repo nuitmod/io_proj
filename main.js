@@ -22,6 +22,11 @@ function mainfn(){
   $('#dat').html('mainfn function!!!');
 }
 
+$('#mod').on('mouseenter',function(){
+  $('#mod1').fadeIn(200)
+}).on('mouseleave', function(){
+  $('#mod1').fadeOut(200)
+})
 //mainfn();
 
 

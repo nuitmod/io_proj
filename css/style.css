@@ -3,6 +3,7 @@
   padding: 0;
 }
 body{
+  background: #333;
   opasity: 0.39;
 }
 #burg a{
@@ -10,9 +11,9 @@ body{
   width: 70px;
 }
 #burg{
-  width: 98%;
+  width: 100%;
   background: #000;
-  padding: 7.5px 0 7.5px 2%;
+  padding: 7.5px 0 7.5px 1%;
 }
 span{
   display: flex;
@@ -108,12 +109,14 @@ pre{
   color: white;
   background: #000;
 }
-/*
-.mode img{
+img:hover, span:hover{
   opacity: 0.5;
 }
-*/
-/* mouse_scroll */
+text{
+  top: 0;
+}
+
+/* mouse_scroll
 body {
 	background: #333;
 }
@@ -138,8 +141,8 @@ body {
   display: block;
   width: 5px;
   height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 
   border-right: 2px solid white;
@@ -291,4 +294,43 @@ body {
   0%   { opacity: 0; }
   50%  { opacity: .5; }
   100% { opacity: 1; }
+}
+*/
+/* div arrow */
+.arrow, .arrow:before {
+  position: absolute;
+  left: 50%;
+}
+.arrow{
+  width: 20px;
+  height: 20px;
+  top: 95%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+
+.arrow:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+@keyframes arrow{
+  0%
+    {opacity: 1;}
+  100%{
+    opacity: 0;
+    transform: translate(-10px, -10px);}
 }
