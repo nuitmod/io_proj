@@ -8,7 +8,6 @@
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="../static/css/style.css">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-title" content="io_proj" />
@@ -17,7 +16,7 @@
   <title>main page ny</title>
 </head>
 <body>
-  <section>
+  <section id="main_menu">
     <div class="bar">
       <nav id="desktop">
         <ul>
@@ -52,19 +51,33 @@
       </nav>
     </div>
   </section>
-
-  <h5>main page</h5>
+<section id="main">
+    <h5>main page</h5>
 
   <img src="./img/mode.jpg" alt="" height="209" width="109">
   <br>
   <img src="./img/ier.JPG" alt="" height="209" width="109">
-
+</section>
+<section id="scroll">
+  <div class="mouse_scroll">
+  		<div class="mouse">
+  			<div class="wheel"></div>
+  		</div>
+  		<div>
+  			<span class="m_scroll_arrows unu"></span>
+  			<span class="m_scroll_arrows doi"></span>
+  			<span class="m_scroll_arrows trei"></span>
+  		</div>
+  </div>
+</section>
+<section id="tech">
   <div class="tech-info">
     <div id="i1">no jquery</div>
     <div id="u1">no jq function</div>
     <input id='bt' type="button" name="click" value="click for hide">
     <div id="dat">area for input</div>
   </div>
+</section>
   <script src=./main.js></script>
   <script>
     $('#i1').html("jquery include")
