@@ -4,7 +4,7 @@ $(function(){
 
 
   $('#burg').on('click', function(){
-    $('.mobile-tab').slideToggle(300)
+    $('.mobile-tab').slideToggle(500)
   })
 
 
@@ -26,6 +26,11 @@ $('#mod').on('mouseenter',function(){
   $('#mod1').fadeIn(200)
 }).on('mouseleave', function(){
   $('#mod1').fadeOut(200)
+})
+$('#ier').on('mouseenter',function(){
+  $('#ier1').fadeIn(200)
+}).on('mouseleave', function(){
+  $('#ier1').fadeOut(200)
 })
 //mainfn();
 
