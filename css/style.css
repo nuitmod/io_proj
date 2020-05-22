@@ -3,7 +3,7 @@
   padding: 0;
 }
 body{
-  background: #333;
+  background: #0f0f0f;
   opasity: 0.39;
 }
 #burg a{
@@ -304,7 +304,7 @@ body {
 .arrow{
   width: 20px;
   height: 20px;
-  top: 95%;
+  top: 98%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
   border-left: none;
@@ -315,8 +315,8 @@ body {
 
 .arrow:before{
   content: '';
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   top: 50%;
   margin: -10px 0 0 -10px;
   border-left: none;
