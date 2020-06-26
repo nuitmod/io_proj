@@ -5,7 +5,6 @@
 body{
   background: black; //#0f0f0f;
   opasity: 0.39;
-  color: #0f0f0f;
 }
 #burg a{
   display: block;
@@ -21,8 +20,9 @@ span{
   margin: 3px;
   width: 25px;
   height: 1px;
-  background: #FF6699; //#c3c3c3;
+  background: #684e5b; //#FF6699; //#c3c3c3;
   z-index: 999;
+  opacity: 0.5;
 }
 .mobile-tab{
   display: flex;
@@ -35,7 +35,7 @@ span{
 }
 .mobile-tab a{
   font-size: 1em;
-  color: #FF6699;//#c3c3c3;
+  color: #684e5b; //#FF6699;//#c3c3c3;
   text-decoration: none;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -67,7 +67,7 @@ span{
   }
   a{
     text-decoration: none;
-    color: #FF6699;//#c3c3c3;
+    color: #684e5b;//#FF6699;//#c3c3c3;
     margin: 0;
   }
   ul{
@@ -80,7 +80,7 @@ span{
     color: white;
     cursor: pointer;
     font-weight: lighter;
-    background: #FF6699; //#232323;
+    background: #684e5b; //#FF6699; //#232323;
     padding: 10px 10px;
     text-align: center;
     width: 70px;
@@ -121,7 +121,7 @@ audio{
   z-index: 12;
 }
 input,h6{
-  color: #FF6699;
+  color: #684e5b;
   background-color: black;
 }
 button{
@@ -135,11 +135,11 @@ button{
 #burg_1{
   background: black;
   padding: 9px 0 5px 90%;
-  color: #FF6699;
+  color: #684e5b; //#FF6699;
   opacity: 0.5;
 }
 .bar_1{
-  color: #FF6699;
+  color: #684e5b; //#FF6699;
   margin: 3px;
   width: 25px;
   height: 7px;
@@ -160,7 +160,7 @@ button{
   margin: 0;
   width: 25px;
   height: 2px;
-  background: #FF6699;
+  background: #d09cb6;
   padding: 0;
 }
 .mobile2 {
@@ -176,7 +176,7 @@ button{
 }
 .mobile_items2 a{
   font-size: 1em;
-  color: #FF6699;
+  color: #684e5b; //#FF6699;
   text-decoration: none;
   letter-spacing: 1px;
 }
@@ -193,7 +193,7 @@ button{
   padding: 0 0;
 }
 .mobile_items2 img{
-  background: #FF6699;
+  background: #684e5b; #FF6699;
   margin: 0 5px 0 5px;
 }
 
@@ -385,25 +385,25 @@ body {
 .arrow{
   width: 20px;
   height: 20px;
-  top: 98%;
+  top: 99%;
   margin: -20px 0 0 -20px;
   -webkit-transform: rotate(45deg);
   border-left: none;
   border-top: none;
-  border-right: 2px #FF6699 solid;
-  border-bottom: 2px #FF6699 solid;
+  border-right: 1px #684e5b solid;
+  border-bottom: 1px #684e5b solid;
 }
 
 .arrow:before{
   content: '';
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   top: 50%;
-  margin: -10px 0 0 -10px;
+  margin: -5px 0 0 -5px;
   border-left: none;
   border-top: none;
-  border-right: 1px #FF6699 solid;
-  border-bottom: 1px #FF6699 solid;
+  border-right: 1px #684e5b solid;
+  border-bottom: 1px #684e5b solid;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-name: arrow;
