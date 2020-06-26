@@ -20,7 +20,7 @@ span{
   margin: 3px;
   width: 25px;
   height: 1px;
-  background: #684e5b; //#FF6699; //#c3c3c3;
+  background: #775f6b; #684e5b; //#FF6699; //#c3c3c3;
   z-index: 999;
   opacity: 0.5;
 }
@@ -176,7 +176,7 @@ button{
 }
 .mobile_items2 a{
   font-size: 1em;
-  color: #684e5b; //#FF6699;
+  color: #775f6b; #684e5b; //#FF6699;
   text-decoration: none;
   letter-spacing: 1px;
 }
