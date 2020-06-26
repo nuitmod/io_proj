@@ -34,5 +34,25 @@ $('#ier').on('mouseenter',function(){
 })
 //mainfn();
 
+//menu2
+$('.mobile2').hide();
+$('.mobile2').on('click', function(){
+  $('.mobile2').fadeToggle(200)
+});
+$('.bar_1').on('click', function(){
+  $('.mobile2').fadeToggle(200)
+});
+
+
+//button
+
+$('#b_main').on('click', function(){
+  $('#main_data').slideToggle(500)
+})
+
+$('#b_radio').on('click', function(){
+  $('#radio_data').slideToggle(500)
+})
+
 
 });
