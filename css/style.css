@@ -3,8 +3,9 @@
   padding: 0;
 }
 body{
-  background: #0f0f0f;
+  background: black; //#0f0f0f;
   opasity: 0.39;
+  color: #0f0f0f;
 }
 #burg a{
   display: block;
@@ -20,7 +21,7 @@ span{
   margin: 3px;
   width: 25px;
   height: 1px;
-  background: #c3c3c3;
+  background: #FF6699; //#c3c3c3;
   z-index: 999;
 }
 .mobile-tab{
@@ -34,7 +35,7 @@ span{
 }
 .mobile-tab a{
   font-size: 1em;
-  color: #c3c3c3;
+  color: #FF6699;//#c3c3c3;
   text-decoration: none;
   font-weight: lighter;
   letter-spacing: 1px;
@@ -66,7 +67,7 @@ span{
   }
   a{
     text-decoration: none;
-    color: #c3c3c3;
+    color: #FF6699;//#c3c3c3;
     margin: 0;
   }
   ul{
@@ -79,7 +80,7 @@ span{
     color: white;
     cursor: pointer;
     font-weight: lighter;
-    background: #232323;
+    background: #FF6699; //#232323;
     padding: 10px 10px;
     text-align: center;
     width: 70px;
@@ -103,7 +104,7 @@ span{
 /*  color: white; */
 }
 h6{
-
+  color: #0f0f0f;
 }
 pre{
   color: white;
@@ -115,7 +116,13 @@ img:hover, span:hover{
 text{
   top: 0;
 }
-
+audio{
+  height: 10px;
+  color: black;
+  background: black;
+  background-color: black;
+  z-index: 12;
+}
 /* mouse_scroll
 body {
 	background: #333;
