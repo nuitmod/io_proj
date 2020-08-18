@@ -41,20 +41,14 @@ $('.mobile2').on('click', function(){
 });
 $('.bar_1').on('click', function(){
   $('.mobile2').fadeToggle(200);
-//  $('#main_data').css({'opacity': 0.5})
-//  $('#radio_data').css({'opacity': 0.5})
 });
-$('.mobile2').on('click', function(){
-//  $('#main_data').css({'opacity': 0.9})
-//  $('#radio_data').css({'opacity': 0.9})
-})
 $('#main_data').css({'opacity': 0.9})
 $('#radio_data').css({'opacity': 0.9})
 
 //button
 $('#mod').hide();
 $('#b_main').on('click', function(){
-  $('#mod').slideToggle(500)
+  $('#mod').fadeToggle(500)
 })
 
 $('#b_radio').on('click', function(){

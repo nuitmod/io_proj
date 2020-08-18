@@ -10,12 +10,11 @@ body{
 #burg a{
   display: block;
   width: 70px;
-  height: 10px;
 }
 #burg{
   width: 100%;
   background: #000;
-  padding: 2.5px 0 2.5px 1%;
+  padding: 7.5px 0 7.5px 1%;
 }
 span{
   display: flex;
