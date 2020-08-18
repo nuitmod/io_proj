@@ -52,9 +52,9 @@ $('#main_data').css({'opacity': 0.9})
 $('#radio_data').css({'opacity': 0.9})
 
 //button
-
+$('#mod').hide();
 $('#b_main').on('click', function(){
-  $('#main_data').slideToggle(500)
+  $('#mod').slideToggle(500)
 })
 
 $('#b_radio').on('click', function(){

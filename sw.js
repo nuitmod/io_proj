@@ -5,7 +5,7 @@ const staticAssets = [
   './style.css',
   './main.js',
   './img/mode.jpg',
-  './img+ier.JPG'
+  './img/ier.JPG'
 ];
 
 self.addEventListener('install', async e => {
