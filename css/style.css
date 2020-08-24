@@ -133,7 +133,6 @@ button{
 }
 
 /*menu2*/
-
 #burg_1{
   background: black;
   padding: 9px 0 5px 90%;
@@ -184,7 +183,7 @@ button{
 }
 .mobile_items2 li{
   list-style-type: none;
-  margin-top: 8%;
+  margin-top: 7%;
   color: white;
   cursor: pointer;
   text-align: center;
@@ -196,7 +195,7 @@ button{
 }
 .mobile_items2 img{
   background: #684e5b; #FF6699;
-  margin: 0 5px 0 5px;
+  margin: 0 3px;
 }
 
 /* mouse_scroll
