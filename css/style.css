@@ -66,6 +66,12 @@ span{
   #desktop{
     display: flex;
   }
+  #burg_1{
+    display: none;
+  }
+  .burg_1{
+    display: none;
+  }
   a{
     text-decoration: none;
     color: #684e5b;//#FF6699;//#c3c3c3;
@@ -81,10 +87,10 @@ span{
     color: white;
     cursor: pointer;
     font-weight: lighter;
-    background: #684e5b; //#FF6699; //#232323;
-    padding: 10px 10px;
+    background: #000; #684e5b; //#FF6699; //#232323;
+    padding: 8px 8px;
     text-align: center;
-    width: 70px;
+    width: 50px;
     letter-spacing: 1px;
     transition: all .2s ease-in-out;
   }
@@ -130,6 +136,10 @@ button{
   color: #0f0f0f;
   height: 2px;
   background-color: black;
+}
+p{
+  color: #684e5b;
+  font-size: 11px;
 }
 
 /*menu2*/
