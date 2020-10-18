@@ -1,6 +1,6 @@
 $(function(){
   $('.mobile-tab').hide();
-  $('.tech-info').hide();
+//  $('.tech-info').hide();
 
 
   $('#burg').on('click', function(){
@@ -8,7 +8,7 @@ $(function(){
   })
 
 
-  $('#u1').html("to_main.js is on");
+//  $('#u1').html("to_main.js is on");
 
 function hide_data(){
   $('#bt').on('click', function(){
