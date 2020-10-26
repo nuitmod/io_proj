@@ -3,6 +3,7 @@
   padding: 0;
 }
 body{
+  -webkit-text-size-adjust: 100%;
   background: black; //#0f0f0f;
   opasity: 0.39;
   font-size: 12px;
