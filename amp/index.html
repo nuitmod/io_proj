@@ -89,10 +89,10 @@
     background-color: black;
     z-index: 12;
   }
-  /* amp-twitter{
-    width: 90px;
-    height: 90px;
-  } */
+  .twits{
+    width: 50vw;
+    height: 50vw;
+  }
   </style>
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
@@ -128,25 +128,27 @@
   <section class="radio">
     <div id="radio_data" style="z-index:15">
       <p>dubstep beyond</p>
-      <amp-audio controls>
+      <amp-audio controls preload="none">
        <source src="https://ice3.somafm.com/dubstep-128-mp3" type="audio/mpeg">
       </amp-audio>
-      <p>riddimdub radio_live</p>
-      <amp-audio controls>
-       <source src="https://radiohost.riddimdub.com/radio/8000/radio.mp3" type="audio/mpeg">
-      </amp-audio>
       <p>defcon hacking :: soma_fm</p>
-      <amp-audio controls>
+      <amp-audio controls preload="none">
        <source src="https://ice2.somafm.com/defcon-128-mp3" type="audio/mpeg">
       </amp-audio>
+      <p>Пикник</p>
+      <amp-audio controls preload="none">
+       <source src="https://pub0201.101.ru/stream/pro/aac/64/157?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjMxLjE2Mi40LjIyNCIsInVzZXJhZ2VudCI6Ik1vemlsbGFcLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdFwvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lXC84Ny4wLjQyODAuODggU2FmYXJpXC81MzcuMzYiLCJ1aWRfY2hhbm5lbCI6IjE1NyIsInR5cGVfY2hhbm5lbCI6ImNoYW5uZWwiLCJleHAiOjE2MDczNDkwMDh9.rWMD4tWmvVsNiZDACGBPwQRIYaKiryQPmLG8bNxGLJ0" type="audio/mpeg">
+      </audio></amp-audio>
     </div>
   </section>
-  <amp-twitter
-  width="390px"
-  height="20px"
-  layout="fixed"
-  data-tweetid="1147023818201767936"
->
-</amp-twitter>
+  <div class="twits">
+    <amp-twitter
+    width="290px"
+    height="20px"
+    layout="fixed"
+    data-tweetid="1147023818201767936"
+    >
+    </amp-twitter>
+  </div>
 </body>
 </html>
