@@ -6,7 +6,7 @@ body{
   -webkit-text-size-adjust: 100%;
   background: black; //#0f0f0f;
   opasity: 0.39;
-  font-size: 12px;
+  font-size: 10px;
 }
 #burg a{
   display: block;
@@ -123,7 +123,7 @@ text{
 }
 audio{
   height: 10px;
-  with: 220px;
+  with: 190px;
   color: black;
   background: black;
   background-color: black;
