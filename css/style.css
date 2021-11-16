@@ -24,7 +24,7 @@ span{
   height: 1px;
   background: #9d8b94;
   z-index: 999;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 .mobile-tab{
   display: flex;
@@ -139,7 +139,7 @@ input,h6{
   background-color: black;
 }
 button{
-  color: ghostwhite; #9d8b94;
+  color: #9d8b94;
   height: 3px;
   background-color: black;
 }
@@ -152,14 +152,14 @@ p{
 #burg_1{
   background: black;
   padding: 9px 0 5px 90%;
-  color: #9d8b94;
-  opacity: 0.5;
+  color: #c6c6c6;
+ 
 }
 .bar_1{
-  color: #9d8b94;
+  color: #c6c6c6;
   margin: 3px;
   width: 25px;
-  height: 7px;
+  height: 9px;
   position: absolute;
   top: 35px;
 }
