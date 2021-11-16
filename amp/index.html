@@ -44,7 +44,8 @@
   :root{
     --bg-main: ghostwhite;
     --bg-menu: black;
-    --menu-a: #f47da5;
+    --menu-a: #796679; 
+    /* //#f47da5; */
   }
   *{
     margin: 0;
@@ -79,7 +80,10 @@
     color: var(--menu-a);
     text-decoration: none;
   }
-  amp-sidebar{
+  amp-accordion a:hover{
+    color: var(--bg-main);
+  }
+   amp-sidebar{
     background-color: var(--bg-menu);
     width: 350px;
   }
@@ -92,7 +96,10 @@
   }
   amp-sidebar a{
     text-decoration: none;
-    color: var(--menu-a);
+    color: var(--bg-main);
+  }
+  amp-sidebar a:hover{
+    color: var(--bg-menu);
   }
   button{
     background-color: var(--bg-menu);
@@ -100,6 +107,10 @@
     font-size: 10px;
     border: 0;
     margin-top: 0;
+  }
+  botton:hover{
+    color: var(--bg-main);
+    background-color: var(--bg-main);
   }
   .menu{
     /* color: var(--menu-a); */
@@ -125,8 +136,11 @@
     margin: 2px;
   }
   .text{
-    color: var(--bg-main);
+    color: var(--menu-a);
     padding: 10px;
+  }
+  .text p:hover{
+    color: var(--bg-main);
   }
 
   </style>
@@ -227,7 +241,21 @@
   <h6 class="menu">mod</h6>
   <div>
     <div class="text">
-      Interrupt I. - The main assets of the space energy field will be turned off now. :: Ruth - What does that mean? - I asked - There will be big distortions in the matrix observed - It means walls, buildings may disappear, keep calm. :: Virginia. - Didn't it work out? - I asked. - No, it worked out, but not yet completely. You'll need a more total reboot. II. They're your name. They want to talk to you Ruth, open the portal, we come in::v -I'll deploy the coordinate space now. ::ruth. Only holographic markup will be visible. We will add all other necessary objects as necessary. A thin coordinate road appeared in the black void. Three women came out of the dark portal one by one. They were dressed in black and looked almost the same except for a silhouette of thin white lines on their chest. -They want you to go with them::r -I think it's okay if something goes wrong, Ruth will close the portal and bring you back through a protective tunnel. I followed them. A small hall with black glass walls towered above the coordinate plane. There was a woman standing by the far wall, and there was no doubt that it was one of them. But who Iwii or iiya was difficult to say. They're too similar, and the lighting was only from the coordinate grid. Here, in the upper corners of the room, pale cold bulbs with a slightly pink and scarlet shade in the radiated light turned on smoothly. I was facing iiya. -They're so worried in vain, because there's absolutely nothing to fear. :: i undefined__ perception of everything.. There's nothing in the world where we're going. But that can show up whatever you want. Void is the field of everything possible. Do you remember the three ladies who met you? ::iy:: it's all me. There's nothing wrong with disappearing, because everything false disappears. What doesn't exist in reality can't disappear. How can the void disappear? -Do you want to show your world? -Yes, aren't you interested in seeing something completely different yourself? :: iy -How will we move in this space? Something the size of a car appeared next to nowhere, but it was a pyramidal formation made of black glass. One and the faces opened and there was a passage inside - Come in ::iy The void can't be killed, it can't take anything away.. Something was rushing rapidly in the space above the coordinate grid. A very tall thin building seemed to be in front. When approaching it, it became clear that despite the narrow facade, it was also stretched deep, along the z axis. - It's good when there is a corner of comfort in the environment of endless emptiness. :: iy Forgotten project - Do you know where the space is, where does Ivvie come from? -No. I'm not even sure if it exists. :: iy
+      <p>
+        Interrupt I. - The main assets of the space energy field will be turned off now. :: Ruth - What does that mean? - I asked - There will be big distortions in the matrix observed - It means walls, buildings may disappear, keep calm. :: Virginia. - Didn't it work out? - I asked. - No, it worked out, but not yet completely. You'll need a more total reboot. II. They're your name. They want to talk to you Ruth, open the portal, we come in::v 
+      </p>
+      <p> 
+        -I'll deploy the coordinate space now. ::ruth. Only holographic markup will be visible. We will add all other necessary objects as necessary. A thin coordinate road appeared in the black void. Three women came out of the dark portal one by one. They were dressed in black and looked almost the same except for a silhouette of thin white lines on their chest. -They want you to go with them::r -I think it's okay if something goes wrong, Ruth will close the portal and bring you back through a protective tunnel. 
+      </p>
+      <p>
+        I followed them. A small hall with black glass walls towered above the coordinate plane. There was a woman standing by the far wall, and there was no doubt that it was one of them. But who Iwii or iiya was difficult to say. They're too similar, and the lighting was only from the coordinate grid. Here, in the upper corners of the room, pale cold bulbs with a slightly pink and scarlet shade in the radiated light turned on smoothly. I was facing iiya. -They're so worried in vain, because there's absolutely nothing to fear. :: i 
+      </p>
+      <p>
+        undefined__ perception of everything.. There's nothing in the world where we're going. But that can show up whatever you want. Void is the field of everything possible. Do you remember the three ladies who met you? ::iy:: it's all me. There's nothing wrong with disappearing, because everything false disappears. What doesn't exist in reality can't disappear. How can the void disappear? -Do you want to show your world? -Yes, aren't you interested in seeing something completely different yourself? :: iy 
+      </p>
+      <p>
+        -How will we move in this space? Something the size of a car appeared next to nowhere, but it was a pyramidal formation made of black glass. One and the faces opened and there was a passage inside - Come in ::iy The void can't be killed, it can't take anything away.. Something was rushing rapidly in the space above the coordinate grid. A very tall thin building seemed to be in front. When approaching it, it became clear that despite the narrow facade, it was also stretched deep, along the z axis. - It's good when there is a corner of comfort in the environment of endless emptiness. :: iy Forgotten project - Do you know where the space is, where does Ivvie come from? -No. I'm not even sure if it exists. :: iy
+      </p>
     </div>
     <div>
       <amp-carousel
