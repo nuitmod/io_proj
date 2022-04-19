@@ -5,12 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <title>Document</title>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>   
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+  <script async custom-element="amp-script" src="https://cdn.ampproject.org/v0/amp-script-0.1.js"></script>
+    
+  <title>ifr</title>
 </head>
 <body>
-    <!-- <img id="mod" src="../img/mode.jpg" alt="" height="69" width="29"></img> -->
+    <!-- <img id="mod" src="../img/mode.jpg" alt="" height="69" width="29"></img> 
     <amp-img id="mod" src="../img/mode.jpg" alt="" height="69" width="29"></amp-img>
-    <!-- <amp-img id="mod" src="./img/mode.jpg" alt="" height="69" width="29"></amp-img> -->
+    <amp-img id="mod" src="./img/mode.jpg" alt="" height="69" width="29"></amp-img> -->
+<div>
+      <video src=".<div>
+      <video src="../FullSizeRender.MOV" id="video" muted="" autoplay="" height="100" width="250"></video>
+      <button id="cont_btn">Toggle Picture-in-Picture</button>
+    </div>
+<script>
+    function togglePictureInPicture() {
+      if (document.pictureInPictureElement) {
+          document.exitPictureInPicture();
+      } else {
+        if (document.pictureInPictureEnabled) {
+          video.requestPictureInPicture();
+        }
+      }
+    }
+
+    var vid=document.getElementById("cont_btn")
+    vid.addEventListener("click", ()=>{
+      togglePictureInPicture();
+    })
+  </script>
 </body>
 </html>
