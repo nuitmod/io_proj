@@ -46,7 +46,7 @@ $('#main_data').css({'opacity': 0.9})
 $('#radio_data').css({'opacity': 0.9})
 
 //button
-//$('#mod').hide();
+$('#mod').hide();
 $('#b_main').on('click', function(){
   $('#mod').fadeToggle(500)
 })
